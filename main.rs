@@ -1,8 +1,8 @@
 #![deny(clippy::all)]
 
-const MY_AGE: u8 = 22;
+const MY_AGE: u8 = 25;
 
 fn main() {
-   println!("Hello, World!");
+   println!("Good Morning Africa!");
    println!("Your age is {}", MY_AGE);
 }
