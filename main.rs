@@ -24,12 +24,7 @@ fn main() {
         )
         .get_matches();
 
-    // Check if the input file argument is present
-    if let Some(input) = matches.value_of("input") {
-        println!("Using input file: {}", input);
-    } else {
-        println!("No input file specified");
-    }
+  
 
     // Check if verbose mode is enabled
     if matches.is_present("verbose") {
